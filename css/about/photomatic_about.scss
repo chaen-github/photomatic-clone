@@ -1,0 +1,342 @@
+@charset'utf-8';
+
+html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'NanumBarunGothic';
+}
+
+$main_color : #ec161f;
+
+#photomatic_header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background: black;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    z-index: 9000;
+    top: 0;
+}
+
+.photomatic_logo {
+    width: 320px;
+    height: auto;
+    margin-left: 40px;
+}
+
+.photomatic_menu {
+    display: flex;
+    margin-right: 40px;
+    align-items: center;
+
+    li {
+        list-style: none;
+        margin-left: 20px;
+        font-size: 20px;
+        color: #fff;
+
+        i {
+            font-size: 27px;
+            display: inline-block;
+            margin-top: 2px;
+            color: $main_color;
+        }
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    :hover {
+        cursor: pointer;
+        font-weight: bold;
+        color: $main_color;
+    }
+}
+
+#photomatic_main {
+    background: #fff;
+    .about_coment_box {
+        margin-top: 150px;
+        letter-spacing: 1px;
+        display: flex;
+        justify-content: center;
+        .about_content_1 {
+            margin-right: 40px;
+        }
+        h3 {
+            font-size: 30px;
+            margin: 0 0;
+        }
+        p {
+            margin-top: 3px;
+            font-size: 18px;
+            line-height: 35px;
+        }
+        .about_content_line {
+            width: 3px;
+            height: 240px;
+            background: $main_color;
+        }
+        .about_content_2n3 {
+            margin-left: 40px;
+        }
+    }
+}
+
+.photomatic_booth_about {
+    .photomatic_booth_1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 250px;
+        img {
+            width: 250px;
+            height: 320px;
+            margin-right: 150px;
+        }
+        .booth_pic_1 {
+            width: 280px;
+            height: 400px;
+        }
+        .photomatic_boote_content_1 {
+            letter-spacing: 1px;
+            h3 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 18px;
+                line-height: 35px;
+            }
+        }
+    }
+}
+.photomatic_booth_line {
+    width: 1500px;
+    height: 3px;
+    background: $main_color;
+    margin-left: 200px;
+}
+.photomatic_booth_about {
+    .photomatic_booth_2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 250px;
+        img {
+            width: 250px;
+            height: 330px;
+            margin-right: 70px;
+        }
+        .booth_pic_2 {
+            width: 420px;
+            height: 280px;
+        }
+        .photomatic_boote_content_2 {
+            letter-spacing: 1px;
+            h3 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 18px;
+                line-height: 35px;
+            }
+        }
+    }
+}
+.photomatic_booth_about {
+    .photomatic_booth_3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 250px;
+        img {
+            width: 250px;
+            height: 330px;
+            margin-right: 70px;
+        }
+        .booth_pic_2 {
+            width: 420px;
+            height: 280px;
+        }
+        .photomatic_boote_content_3 {
+            width: 450px;
+            letter-spacing: 1px;
+            h3 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 18px;
+                line-height: 35px;
+            }
+        }
+    }
+}
+.photomatic_booth_about {
+    .photomatic_booth_4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 250px;
+        img {
+            width: 250px;
+            height: 330px;
+            margin-right: 70px;
+        }
+        .booth_pic_2 {
+            width: 420px;
+            height: 280px;
+        }
+        .photomatic_boote_content_4 {
+            width: 450px;
+            letter-spacing: 1px;
+            h3 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 18px;
+                line-height: 35px;
+            }
+        }
+    }
+}
+.photomatic_booth_about {
+    .photomatic_booth_5 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 250px;
+        img {
+            width: 250px;
+            height: 330px;
+            margin-right: 70px;
+        }
+        .booth_pic_3 {
+            width: 420px;
+            height: 120px;
+        }
+        .photomatic_boote_content_5 {
+            width: 450px;
+            letter-spacing: 1px;
+            h3 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 18px;
+                line-height: 35px;
+            }
+        }
+    }
+}
+.photomatic_booth_about {
+    .photomatic_booth_6 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 250px;
+        img {
+            width: 250px;
+            height: 350px;
+            margin-right: 140px;
+        }
+        .booth_pic_4 {
+            width: 280px;
+            height: 400px;
+        }
+        .photomatic_boote_content_6 {
+            width: 450px;
+            letter-spacing: 1px;
+            h3 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 18px;
+                line-height: 35px;
+            }
+        }
+    }
+}
+.photomatic_booth_about {
+    .photomatic_booth_7 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 250px;
+        img {
+            width: 250px;
+            height: 350px;
+            margin-right: 80px;
+        }
+        .booth_pic_5 {
+            width: 400px;
+            height: 250px;
+        }
+        .photomatic_boote_content_7 {
+            width: 450px;
+            letter-spacing: 1px;
+            h3 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 18px;
+                line-height: 35px;
+            }
+        }
+    }
+}
+.photomatic_booth_about {
+    .photomatic_booth_8 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 250px;
+        img {
+            width: 250px;
+            height: 350px;
+            margin-right: 140px;
+        }
+        .booth_pic_6 {
+            width: 280px;
+            height: 400px;
+        }
+        .photomatic_boote_content_8 {
+            width: 450px;
+            letter-spacing: 1px;
+            h3 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 18px;
+                line-height: 35px;
+            }
+        }
+    }
+}
+#photomatic_footer {
+    background: #000;
+    color: #fff;
+    height: 200px;
+    padding-top: 80px;
+    p {
+        padding-left: 100px;
+        line-height: 30px;
+    }
+    img {
+        width: 150px;
+        height: auto;
+        display: inline-block;
+        float: right;
+        padding-right: 100px;
+    }
+}
